@@ -1,0 +1,53 @@
+{
+    "course/course": {
+        "advanced_modules": [
+            "done", 
+            "recommender", 
+            "poll", 
+            "word_cloud"
+        ], 
+        "course_image": "pmitros_press.jpg", 
+        "discussion_topics": {
+            "General": {
+                "id": "i4x-LAS-FLIPPED_CON-course-course"
+            }
+        }, 
+        "display_name": "Learning@Scale 2016 Flipped Conference", 
+        "graceperiod": "", 
+        "language": "en", 
+        "minimum_grade_credit": 0.8, 
+        "start": "2000-01-01T00:00:00Z", 
+        "tabs": [
+            {
+                "name": "Home", 
+                "type": "course_info"
+            }, 
+            {
+                "name": "Course", 
+                "type": "courseware"
+            }, 
+            {
+                "name": "Textbooks", 
+                "type": "textbooks"
+            }, 
+            {
+                "name": "Discussion", 
+                "type": "discussion"
+            }, 
+            {
+                "name": "Wiki", 
+                "type": "wiki"
+            }, 
+            {
+                "name": "Progress", 
+                "type": "progress"
+            }
+        ], 
+        "xml_attributes": {
+            "filename": [
+                "", 
+                null
+            ]
+        }
+    }
+}

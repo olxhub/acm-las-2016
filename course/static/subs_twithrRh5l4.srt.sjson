@@ -1,0 +1,47 @@
+{
+  "start": [
+    0, 
+    20000, 
+    82000, 
+    103000, 
+    150000, 
+    157000, 
+    270000, 
+    276000, 
+    427000, 
+    448000, 
+    510000, 
+    565000, 
+    663000
+  ], 
+  "end": [
+    19989, 
+    38000, 
+    89989, 
+    109989, 
+    156989, 
+    169989, 
+    275989, 
+    294989, 
+    434989, 
+    466989, 
+    539989, 
+    585989, 
+    674989
+  ], 
+  "text": [
+    "This Beetle-Grow demonstration features three exercises drawn from our curriculum. These three have been selected to illustrate the type of complex interactions which the system is capable of, and also to give an overview of the conceptual change instructional approach used throughout the course.", 
+    "The first exercise deals with a parallel circuit. The student is asked to predict which bulbs will be on when different combinations of switches are open or closed. They make their predictions by typing in the chat box and pressing Submit. They don't get any feedback at this point.", 
+    "Next, the student uses the circuit builder to test their predictions by manipulating the given circuit.", 
+    "Beetle-Grow detects when the student has made an error with the circuit and gives a hint on how to fix it.", 
+    "The student is asked to compare their predictions with the experimental results from the circuit builder.", 
+    "The student is then encouraged to reflect on what happened as they explain the results they saw. If their predictions were wrong, they may need to re-evaluate their conceptual model.", 
+    "Exercise 2 deals with fault-finding using voltage measurement.", 
+    "Again the student must predict, verify, and evaluate. In this example, they also practise reporting voltage measurements. Model answers are given using the correct units. Learning to use the correct terminology is an important part of mastering a new domain.", 
+    "If the student makes an error with their circuit three times in a row then the system loads the correct circuit for them.", 
+    "As in exercise 1, the questions at the end of the evaluation phase move beyond the specific case and ask the student to consider the broader principles at work in electrical circuits. This step is crucial to developing a deeper understanding of the domain.", 
+    "The final exercise in this demonstration relates the knowledge acquired earlier in the lesson to a simple real world situation. A room is shown with several lights. Some bulbs are on, and some are off -- these may be damaged. What wiring arrangements are possible?", 
+    "The student's learning is reinforced by applying their new knowledge to a concrete problem. This particular example challenges a common misconception about the flow of current in electrical circuits, and reinforces the fact that a bulb will only light if it is in a closed path with a battery.", 
+    "That's the end of the demo. Thank you for watching. Why not give it a try yourself, at beetle-grow.inf.ed.ac.uk?"
+  ]
+}

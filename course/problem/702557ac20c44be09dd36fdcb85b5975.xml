@@ -1,0 +1,32 @@
+<problem display_name="David's Challenges" markdown="David spent 50 hours organizing and submitting his queries for a large number of students and projects.  In the video he identified conceptual challenges he struggled with in the process.&#10;&#10;&#10;&gt;&gt;Which of the following challenges did David identify?&lt;&lt;&#10;&#10;[x] False Positives  {{ selected: -- Correct! Instructors must review the suspicious similarities highlighted by MOSS to determine plagiarism. Comparisons of students against their own previous projects or past semester similarities already reviewed, for example, will produce false positives that overshadow the current project analysis.  These need to be filtered out. }, { unselected: -- If not filtered out, false positives can overshadow true positives. }}&#10;[ ] Getting MOSS to respond   {{ U: -- Right! Getting a response from MOSS was not one of the problems David identified. }, { S: -- David didn't have difficulty getting the MOSS server to respond.}}&#10;[x] Testing current projects against past projects {{ selected: -- Correct! Since MOSS produces pairwise comparisons, large batches of past and current projects also include unwanted comparisons of past projects against each other.}, { unselected: -- Think about the problem that occurs when current projects are submitted in a group with past projects resulting in unwanted comparisons of past projects with each other. }}&#10;[x] Plagiarism in more than pairs {{ selected: -- Correct! If plagiarism is suspected, an instructor would like to know the source of the problem. Identifying multiple examples of plagiarism from the same source as distinct from collaboration is a challenge.}, { unselected: -- It is possible that more than one student is plagiarizing the same online source, causing it to appear that they are paritally collaborating with each other in pairs. }}&#10;[ ] Finding similarity when students change variable names   {{ U: -- Right!  MOSS already does using a token-based algorithm.}, { S: -- MOSS finds similarity in software code using tokens, not the names given by the coder.}}&#10;[x] Scaling  {{ selected: -- Correct!  As the number of projects and students grow, small file management inconveniences become extremely time consuming. }, { unselected: -- Unzipping one file or sorting Python from Java is simple when there are only a few, but multiply that by hundreds of students and multiple projects for each and you have a mess.}}&#10;&#10;&#10;||In the video, David identified four conceptual challenges.||&#10;||The challenges David identified were related to working with large classes and multiple projects.||&#10;">
+<p>David spent 50 hours organizing and submitting his queries for a large number of students and projects.  In the video he identified conceptual challenges he struggled with in the process.</p>
+<p>Which of the following challenges did David identify?</p>
+<choiceresponse>
+  <checkboxgroup label="Which of the following challenges did David identify?">
+    <choice correct="true">False Positives
+      <choicehint selected="true">-- Correct! Instructors must review the suspicious similarities highlighted by MOSS to determine plagiarism. Comparisons of students against their own previous projects or past semester similarities already reviewed, for example, will produce false positives that overshadow the current project analysis.  These need to be filtered out.</choicehint>
+      <choicehint selected="false">-- If not filtered out, false positives can overshadow true positives.</choicehint></choice>
+    <choice correct="false">Getting MOSS to respond
+      <choicehint selected="true">-- David didn't have difficulty getting the MOSS server to respond.</choicehint>
+      <choicehint selected="false">-- Right! Getting a response from MOSS was not one of the problems David identified.</choicehint></choice>
+    <choice correct="true">Testing current projects against past projects
+      <choicehint selected="true">-- Correct! Since MOSS produces pairwise comparisons, large batches of past and current projects also include unwanted comparisons of past projects against each other.</choicehint>
+      <choicehint selected="false">-- Think about the problem that occurs when current projects are submitted in a group with past projects resulting in unwanted comparisons of past projects with each other.</choicehint></choice>
+    <choice correct="true">Plagiarism in more than pairs
+      <choicehint selected="true">-- Correct! If plagiarism is suspected, an instructor would like to know the source of the problem. Identifying multiple examples of plagiarism from the same source as distinct from collaboration is a challenge.</choicehint>
+      <choicehint selected="false">-- It is possible that more than one student is plagiarizing the same online source, causing it to appear that they are paritally collaborating with each other in pairs.</choicehint></choice>
+    <choice correct="false">Finding similarity when students change variable names
+      <choicehint selected="true">-- MOSS finds similarity in software code using tokens, not the names given by the coder.</choicehint>
+      <choicehint selected="false">-- Right!  MOSS already does using a token-based algorithm.</choicehint></choice>
+    <choice correct="true">Scaling
+      <choicehint selected="true">-- Correct!  As the number of projects and students grow, small file management inconveniences become extremely time consuming.</choicehint>
+      <choicehint selected="false">-- Unzipping one file or sorting Python from Java is simple when there are only a few, but multiply that by hundreds of students and multiple projects for each and you have a mess.</choicehint></choice>
+  </checkboxgroup>
+</choiceresponse>
+
+
+<demandhint>
+  <hint>In the video, David identified four conceptual challenges.</hint>
+  <hint>The challenges David identified were related to working with large classes and multiple projects.</hint>
+</demandhint>
+</problem>

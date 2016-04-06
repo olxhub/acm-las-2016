@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>\n  Welcome to the ACM Learning@Scale Flipped Course! To get started, click on the 'course' tab above. We'd ask you to step through the sequences for all of the full papers before showing up to the second day of Learning@Scale to be prepared for the flipped activities at the conference. \n</p>\n<p>\n  You may enjoy working through many of the work-in-progress papers. We were impressed with the quality of some of the presentations there as well. \n</p>\n<p>\n  If you'd like to reuse any of the materials in this course, please fork us <a href=\"https://github.com/olxhub/acm-las-2016\">on github</a>. This course is playable in <a href=\"https://github.com/edx/edx-platform\">any Open edX install</a> (and, hopefully eventually, other OLX players).\n</p>", 
+        "date": "April 5, 2016", 
+        "id": 1, 
+        "status": "visible"
+    }
+]

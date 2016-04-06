@@ -1,0 +1,66 @@
+
+<course url_name="course" org="LAS" course="FLIPPED_CON"
+	display_name="Learning@Scale 2016 Flipped Conference"
+	advanced_modules="[&quot;done&quot;, &quot;recommender&quot;, &quot;poll&quot;, &quot;word_cloud&quot;]">
+  <chapter display_name="Introduction" url_name="intro">
+    <sequential url_name="WELCOME_sequence" format="Intro" graded="true"/>
+  </chapter>
+  <chapter display_name="Full Papers" url_name="full_papers">
+    <sequential url_name="METAGRADER_sequence" format="Full Papers" graded="true"/>
+
+    <sequential url_name="PEER_ASSESS_sequence" format="Full Papers" graded="true"/>
+
+    <sequential url_name="TRANSFER_sequence" format="Full Papers" graded="true"/>
+
+    <sequential url_name="AXIS_sequence" format="Full Papers" graded="true"/>
+  </chapter>
+  <chapter display_name="Short Papers" url_name="short_papers">
+    <sequential url_name="TAPS_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="BEETLE_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="EXPERT_300_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="VU_MOOC_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="CROSS_FORUM_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="UNEXPECT_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="DASHBOARDS_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="VIDEO_PERCEIVE_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="IDENT_MISUNDERSTAND_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="TOPIC_DISCUSS_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="INDIAN_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="INST_DATA_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="EVAL_MOOC_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="SEQ_REQ_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="SPACED_REP_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="EVID_HUB_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="ETUTOR_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="ASSIST_RCT_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="ENDORSER_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="PEER_SHORT_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="OPEN_LEARN_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="BEYOND_METRICS_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="ASSIST_BED_sequence" format="Short Papers" graded="true"/>
+
+    <sequential url_name="LEARN_AMOUNT_sequence" format="Short Papers" graded="true"/>
+  </chapter>
+</course>

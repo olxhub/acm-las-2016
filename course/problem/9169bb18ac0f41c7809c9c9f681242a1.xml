@@ -1,0 +1,34 @@
+<problem display_name="Your Contact Information" markdown="null">
+<p>If you would like to either work with us or get recognition for your contribution please share your name and email in the boxes bellow.</p>
+
+<p>Name</p>
+
+<stringresponse answer="We couldn't figure out how to mark this as ungraded" type="ci">
+  <textline label="Name" size="40"/>
+</stringresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>We couldn't figure out how to mark this as ungraded</p>
+
+</div>
+</solution>
+
+<p>Email</p>
+
+<stringresponse answer="We couldn't figure out how to mark this as ungraded" type="ci">
+  <textline label="Email" size="40"/>
+</stringresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>We couldn't figure out how to mark this as ungraded</p>
+
+</div>
+</solution>
+
+</problem>

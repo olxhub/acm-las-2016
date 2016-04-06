@@ -1,0 +1,41 @@
+{
+  "start": [
+    0, 
+    5989, 
+    10977, 
+    11961, 
+    19969, 
+    29963, 
+    57006, 
+    75975, 
+    87003, 
+    97997, 
+    106023
+  ], 
+  "end": [
+    5989, 
+    10977, 
+    11961, 
+    17967, 
+    24958, 
+    42992, 
+    65965, 
+    82999, 
+    90023, 
+    102018, 
+    111044
+  ], 
+  "text": [
+    "The Beetle-Grow circuit builder can be used to build complex circuits easily.", 
+    "The components update appropriately when changes are made.", 
+    "Let's see some examples.", 
+    "Here we connect a bulb to a battery and observe that the bulb lights up.", 
+    "Next, we add a switch, and open and close it.", 
+    "Let's measure the voltage across the bulb with the voltmeter... The reading is 1.5 volts.", 
+    "If we add more bulbs in parallel, they all shine brightly.", 
+    "Now let's reset the workbench and build a new circuit with the bulbs connected in series instead.", 
+    "One on its own shines brightly", 
+    "but when we connect the rest... they are dim.", 
+    "The voltage reading across one of these bulbs is 0.5 volts."
+  ]
+}

@@ -1,0 +1,23 @@
+<problem display_name="Algorithm Selection" markdown="null">
+  
+<p>For all the classifications, an accuracy of over 0.7 was achieved, which illustrated that with only simple unigram features a good model, was able to be learnt for the individual MOOC course. </p>
+
+<p>Which algorithm would you select to build models for the cross-MOOC classification evaluation?</p>
+<multiplechoiceresponse>
+  <choicegroup label="Which algorithm would you select to build models for the cross-MOOC classification evaluation?" type="MultipleChoice">
+    <choice correct="false">Naïve Bayes</choice>
+    <choice correct="false">Random Forest</choice>
+    <choice correct="true">Support Vector Machine with an RBF Kernel</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>The best performing algorithm was the Support Vector Machine using a RBF kernel, which was then selected to build models for the cross-MOOC classification evaluation. </p>
+
+</div>
+</solution>
+
+</problem>

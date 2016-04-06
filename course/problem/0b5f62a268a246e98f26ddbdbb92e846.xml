@@ -1,0 +1,7 @@
+<problem display_name="" markdown="null" max_attempts="0" showanswer="never">
+<p>(5) Do you have any other suggestions to improve our research or collaborate?</p>
+
+<stringresponse answer=".*" type="ci regexp" show_correctness="never">
+    <textline label="Do you have any other suggestions to improve our research or collaborate?" size="80"/>
+</stringresponse>
+</problem>

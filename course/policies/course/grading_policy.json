@@ -1,0 +1,28 @@
+{
+    "GRADER": [
+        {
+            "drop_count": 0, 
+            "min_count": 1, 
+            "short_label": "INTRO", 
+            "type": "Intro", 
+            "weight": 0.1
+        }, 
+        {
+            "drop_count": 1, 
+            "min_count": 4, 
+            "short_label": "FULL", 
+            "type": "Full Papers", 
+            "weight": 0.8
+        }, 
+        {
+            "drop_count": 12, 
+            "min_count": 24, 
+            "short_label": "SHORT", 
+            "type": "Short Papers", 
+            "weight": 0.0
+        }
+    ], 
+    "GRADE_CUTOFFS": {
+        "Pass": 0.65
+    }
+}

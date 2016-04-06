@@ -1,0 +1,12 @@
+<problem url_name="EVID_HUB_A_quick_quiz" display_name="A quick quiz">
+  <p>Is a graded quiz or assignment a good idea?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Is a graded quiz or assignment a good idea?" type="MultipleChoice">
+      <choice correct="true">Yes <choicehint>Aside from helping
+      participants process and remember knowledge, ir makes your
+      learning sequence usable in classroom contexts. Just do try to
+      keep the amount of time very bounded.</choicehint></choice>
+      <choice correct="false">No <choicehint>Try again.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

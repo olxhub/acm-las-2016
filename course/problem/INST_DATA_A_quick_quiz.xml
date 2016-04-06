@@ -1,0 +1,12 @@
+<problem url_name="INST_DATA_A_quick_quiz" display_name="A quick quiz" markdown="null">
+  <p>Just to see if you were listening ... and for me to see what quizzes in edX are like!</p>
+  <p>How many tertary students were there worldwide in 2010?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Is a graded quiz or assignment a good idea?" type="MultipleChoice">
+      <choice correct="false">100 million <choicehint>Not bad, that is the current number of <string>new</string> tertiary students each year.</choicehint></choice>
+      <choice correct="true">180 million <choicehint>Yay, that is right, but it is rising fast!</choicehint></choice>
+      <choice correct="false">260 million <choicehint>Hey, you are ahead of your time; that is the expected number by 2025.</choicehint></choice>
+      <choice correct="false">360 million <choicehint>Sorry, this is one of those annoying distractors meant to make you think 260 is right.  I hope you aren't cruel like this to your students.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

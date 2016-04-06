@@ -1,0 +1,28 @@
+<problem display_name="Quiz of Your Intuition" markdown="null">
+<p>Where do you think we observed the largest difference between the experimental and control group for our study?</p>
+<multiplechoiceresponse>
+  <choicegroup label="Where do you think we observed the largest difference between the experimental and control group for our study?" type="MultipleChoice">
+    <choice correct="false">Participation in the next assignment (due the next day)</choice>
+    <choice correct="false">Participation in the assignment due a week later</choice>
+    <choice correct="true">Participation in the last assignment in the course</choice>
+    <choice correct="false">No differences were observed betweent the experimental and control groups</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>Can you explain your reasoning?</p>
+<stringresponse answer="We couldn't mark this as ungraded" type="ci">
+  <textline label="Can you explain your reasoning?" size="80"/>
+</stringresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>We were very surprised to observe the largest difference in the last assignment of the course.
+We had hypothesised that the next assignment after the intervention would have the largest difference.
+To read more about what happened go to the next subsection.</p>
+
+</div>
+</solution>
+
+</problem>

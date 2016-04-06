@@ -1,0 +1,18 @@
+<problem display_name="Tit-for-Tat" markdown="null">
+<p>Why do we think that our review rating system is not prone to tit-for-tat situations where paerticipants might rate the review of their peer rather on basis of the number of points that they've received than on the basis of the review's quality?</p>
+ 
+<p>Note: Make sure you select all of the correct options—there may be more than one!</p>
+<choiceresponse>
+  <checkboxgroup label="Tit for tat.">
+    <choice correct="true">We've evaluated if it is that way.
+      <choicehint selected="true">You are correct, we compared the number of points given for a submission to the number of stars that the review has received. We could not find a correlation between the values.</choicehint>
+      <choicehint selected="false">We compared the number of points given for a submission to the number of stars that the review has received. We could not find a correlation between the values.</choicehint></choice>
+    <choice correct="true">Our participants can't see how many points they've received from a certain reviewer befor they rate the review.
+      <choicehint selected="true">You are correct. The participants can only see the overall amount of points they've received before they rate a review. Only after rating the review they will see how many points they've received from this particular reviewer.</choicehint>
+      <choicehint selected="false">The participants can only see the overall amount of points they've received before they rate a review. Only after rating the review they will see how many points they've received from this particular reviewer.</choicehint></choice>
+    <choice correct="false">We rely on the goodwill and honesty of the participants.
+      <choicehint selected="true">Of course, we expect that our participants are good people that care more for learning than for grades. Nonetheless, we still check if our assumptions are right. </choicehint>
+      <choicehint selected="false">Of course, we expect that our participants are good people that care more for learning than for grades. Nonetheless, we still check if our assumptions are right.</choicehint></choice>
+  </checkboxgroup>
+</choiceresponse>
+</problem>

@@ -1,0 +1,12 @@
+<problem display_name="" markdown="null" max_attempts="0" showanswer="never">
+  <p>(1) What is your background?</p>
+<choiceresponse>
+  <checkboxgroup label="What is your background?" show_correctness="never">
+    <choice correct="true">Learning Analytics researcher</choice>
+    <choice correct="true">Faculty member</choice>
+    <choice correct="true">Graduate student</choice>
+    <choice correct="true">MOOC developer</choice>
+    <choice correct="true">other</choice>
+  </checkboxgroup>
+</choiceresponse>
+</problem>

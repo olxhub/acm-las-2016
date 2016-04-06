@@ -1,0 +1,208 @@
+<p>Table 3 includes the cross-domain MOOC accuracy where a model in trained on the forum posts from a single course and then validated with unseen forum posts from the other two courses. 
+The cross-domain performance varies across categories. The sentiment cross-domain MOOC classifiers achieve the best performance (the lowest accuracy being 0.62) while the urgency and confusion classifiers are unable to produce consistent generalisable performance for MOOC courses from a different domain. The lowest accuracy is achieved for confusion classification (i.e., 0.25).
+</p>
+
+<p>
+  <table border="1" width="522">
+<tbody>
+<tr>
+<td width="34">
+<p>&nbsp;</p>
+</td>
+<td colspan="3" width="163">
+<p>Education EDUC115N How to Learn Math (DS 1)</p>
+</td>
+<td colspan="3" width="170">
+<p>Medicine Sci Write Fall2013 <br /> (DS 2)</p>
+</td>
+<td colspan="3" width="155">
+<p>Humanities Science Stat Learning Winter 2014 (DS 3)</p>
+</td>
+</tr>
+<tr>
+<td width="34">
+<p>&nbsp;</p>
+</td>
+<td width="57">
+<p>Confusion</p>
+</td>
+<td width="50">
+<p>Urgency</p>
+</td>
+<td width="57">
+<p>Sentiment</p>
+</td>
+<td width="64">
+<p>Confusion</p>
+</td>
+<td width="50">
+<p>Urgency</p>
+</td>
+<td width="57">
+<p>Sentiment</p>
+</td>
+<td width="54">
+<p>Confusion</p>
+</td>
+<td width="46">
+<p>Urgency</p>
+</td>
+<td width="55">
+<p>Sentiment</p>
+</td>
+</tr>
+<tr>
+<td width="34">
+<p>DS 1</p>
+</td>
+<td width="57">
+<p>&nbsp;</p>
+</td>
+<td width="50">
+<p>&nbsp;</p>
+</td>
+<td width="57">
+<p>&nbsp;</p>
+</td>
+<td width="64">
+<p>0.25</p>
+</td>
+<td width="50">
+<p>0.62</p>
+</td>
+<td width="57">
+<p>0.68</p>
+</td>
+<td width="54">
+<p>0.28</p>
+</td>
+<td width="46">
+<p>0.66</p>
+</td>
+<td width="55">
+<p>0.81</p>
+</td>
+</tr>
+<tr>
+<td width="34">
+<p>DS 2</p>
+</td>
+<td width="57">
+<p>0.33</p>
+</td>
+<td width="50">
+<p>0.76</p>
+</td>
+<td width="57">
+<p>0.74</p>
+</td>
+<td width="64">
+<p>&nbsp;</p>
+</td>
+<td width="50">
+<p>&nbsp;</p>
+</td>
+<td width="57">
+<p>&nbsp;</p>
+</td>
+<td width="54">
+<p>0.76</p>
+</td>
+<td width="46">
+<p>0.57</p>
+</td>
+<td width="55">
+<p>0.78</p>
+</td>
+</tr>
+<tr>
+<td width="34">
+<p>DS 3</p>
+</td>
+<td width="57">
+<p>0.33</p>
+</td>
+<td width="50">
+<p>0.86</p>
+</td>
+<td width="57">
+<p>0.82</p>
+</td>
+<td width="64">
+<p>0.86</p>
+</td>
+<td width="50">
+<p>0.59</p>
+</td>
+<td width="57">
+<p>0.74</p>
+</td>
+<td width="54">
+<p>&nbsp;</p>
+</td>
+<td width="46">
+<p>&nbsp;</p>
+</td>
+<td width="55">
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+Table 3: Classification accuracy for cross-domain MOOC forum posts.
+</p>
+  <p>
+    
+    <ul>
+      <li>Many Transfer learning and domain adaptation algorithms have been proposed that allow classification algorithms to achieve improved performance when applied to other domain areas particularly for sentiment classification (e.g., applying a model trained on movie reviews to book reviews).</li>   
+      <li>Table 4 includes the top words for each category within the DS 3 course (the features for the other 2 courses are omitted due to space restrictions), selected using the chi-squared statistic.</li>
+</ul>
+</p>
+<p>
+
+<table border="1" width="530">
+<tbody>
+<tr>
+<td width="93">
+<p>&nbsp;</p>
+</td>
+<td width="132">
+<p><strong>Confusion</strong></p>
+</td>
+<td width="149">
+<p><strong>Urgency</strong></p>
+</td>
+<td width="156">
+<p><strong>Sentiment</strong></p>
+</td>
+</tr>
+<tr>
+<td width="93">
+<p>Humanities Science Stat Learning Winter 2014 (DS 3)</p>
+</td>
+<td width="132">
+<p>base, log, terosv, size, solved, explanation, eta_1, helped, modified, logical, set, jiza, design, frequentist, joined, protect, clarifying, variable, predictors, r_</p>
+</td>
+<td width="149">
+<p>thank, does, advance, video, confused, chapter, error, download, great, validation, downloaded, cross, certificate, understand, missing, wondering, tell, supposed, wrong, unable,</p>
+</td>
+<td width="156">
+<p>sigh, annoying, unenroll, hell, browser, bummer, geez, shuzhen, navigation, chrome, exhausting, voice, spring, browsers, country, declared, shame, shocking, screen, connection,</p>
+</td>
+</tr>
+</tbody>
+</table>
+  Table 4: Top features for each category selected using the chi-squared statistic for Science Stat Learning Winter 2014 (DS 3).
+</p>
+<p>
+Inspection of the top features (words) in each category, revealed the reason for low performing cross-domain classification results:
+<ul>  
+<li>The top features for confusion and sentiment are highly related to the context in which the confusion or sentiment was expressed. 
+  </li>
+  <li>Confusion included words for the concepts that were found to be confusing</li>
+  <li>Urgency was associated with technology issues that students may have required an urgent response</li> 
+</ul>
+</p>
+<p>
+  Please use the discussion forum to discuss the reasons for low cross-MOOC classifier performance.
+</p>

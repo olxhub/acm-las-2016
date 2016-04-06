@@ -1,0 +1,10 @@
+<problem url_name="SPACED_REP_A_quick_quiz" display_name="A quick quiz" markdown="null">
+  <p>In a throughput-optimal Leitner system, do lower decks have larger, smaller, or the same review rates as higher decks?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="In a throughput-optimal Leitner system, do lower decks have bigger or smaller review rates than higher decks?" type="MultipleChoice">
+      <choice correct="true">Larger <choicehint>Aside from being the intuitive distribution of effort across decks (since forgotten items are waiting in lower decks, while recalled items are in higher decks), this turns out to be the solution that maximizes steady-state throughput in the Leitner Queue Network model.</choicehint></choice>
+      <choice correct="false">Smaller <choicehint>Try again.</choicehint></choice>
+      <choice correct="false">Same <choicehint>Try again.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,8 @@
+<problem display_name="" markdown="null" max_attempts="0" showanswer="never">
+
+<p>(4) Are you aware about any other works related to our research? (Pls specify)</p>
+
+<stringresponse answer=".*" type="ci regexp" show_correctness="never">
+    <textline label="Are you aware about any other works related to our research? (Pls specify)" size="80"/>
+</stringresponse>
+</problem>

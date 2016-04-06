@@ -1,0 +1,25 @@
+<problem display_name="Review Distribution" markdown="null">
+<p>Our peer assessment implementation supports distribution mechanism, which favors the submissions of participants who themselves have already written reviews. Which of the following statements is true in this context?</p>
+<choiceresponse>
+  <checkboxgroup label="distribution mechanism">
+    <choice correct="true">The submissions of participants who have already written reviews, have a higher priority in receiving reviews.</choice>
+    <choice correct="false">The submissions of participants who have already written reviews receive additional points.</choice>
+    <choice correct="false">Participants who do not write reviews will never receive reviews.</choice>
+    <choice correct="true">Participants who do not write reviews will not receive points for their submission.</choice>
+  </checkboxgroup>
+</choiceresponse>
+
+<p>Note: Make sure you select all of the correct options—there may be more than one!</p>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>The submissions of participants who have already written reviews will not receive additional points per se.</p>
+<p>There is a possibility to earn additional points for reviews if the reviewed participant gives the review a good rating.</p>
+<p>Even if a participant does not write reviews at all s/he has a good chance to receive sufficient reviews; however, s/he will not receive any points at all from the system.</p>
+
+</div>
+</solution>
+
+</problem>

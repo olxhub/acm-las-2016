@@ -1,0 +1,8 @@
+<problem display_name="" markdown="null" max_attempts="0" showanswer="never">
+<p>(2) How do you rate this course and the research?</p>
+<multiplechoiceresponse>
+  <choicegroup label="How do you rate this course and the research?" type="MultipleChoice" show_correctness="never">
+    <choice correct="true">Very poor</choice> <choice correct="true">Poor</choice> <choice correct="true">Average</choice> <choice correct="true">Good</choice> <choice correct="true">Excellent</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+</problem>

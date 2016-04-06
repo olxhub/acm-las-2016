@@ -1,0 +1,49 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+
+<h3>Instructor Dashboards In EdX</h3>
+
+<h4>Abstract</h4>
+<p>Staff from edX, MIT, and Harvard will present two instructor dashboards for edX MOOCs. Current workflows will be described, from parsing and displaying data to using dashboards for course revision. A major focus will be lessons learned in the first two years of deployment.</p>
+
+<h4>Author Keywords</h4>
+<p>mooc; dashboard; edx; analytics; instructor</p>
+
+<h4>Introduction</h4>
+
+<div class="hx-hangright" style="border:4px solid #ddd;">
+<figure style="width:300px;">
+  <a href="/static/DASHBOARDS_Activity_Figure.png" target="_blank"><img width="300" src="/static/DASHBOARDS_Activity_Figure.png" alt="Plot of student activity over time" /></a>
+  <figcaption><i>Fig. 1: Using dashboard data to identify which components are engaging students. Click for a larger version.</i></figcaption>
+</figure>
+</div>
+
+<p>Course dashboards in edX provide aggregated student data and simple research results to instructional teams. This demonstration walks through the process of designing, deploying, and using dashboards, from the viewpoints of programmers, data scientists, course authors, and institutional researchers.</p>
+
+<h4>Dashboards</h4>
+
+<p>Two different dashboards are available for use with edX: the Insights dashboard, available to all users of the edX and Open edX platforms, which is accessible from within the platforms, and an MIT/Harvard collaboration called XAnalytics, which is available to course teams and institutional researchers at each institution, and is being adopted by other institutions as well. Both dashboards are open-source.</p>
+
+<p>Three major groups use these dashboards: course leads, professors, and administrators. The choice of what data to display and how to display it was made in close consultation with these users. </p>
+
+<div class="hx-hangright" style="border:4px solid #ddd;">
+<figure style="width:300px;">
+  <a href="/static/DASHBOARDS_IRT_Figure.png" target="_blank"><img width="300" src="/static/DASHBOARDS_IRT_Figure.png" alt="Plot of IRT data with best fit line and outlier" /></a>
+  <figcaption><i>Fig. 2: Using dashboard data to identify assessments that need revision.
+    Click for a larger version.</i></figcaption>
+</figure>
+</div>
+
+<p>Within a particular constituency, there can be substantial differences in user requirements. Discussion at the demonstration will include how these differences are handled in the two systems. For example, the needs of MOOC teachers differ greatly from the needs of on-campus teachers. In a face-to-face course where online materials are used to provide homework or additional resources, advising and assessing individual students is a major priority. Consequently, there is a greater need for up-to-the-minute information. Figure 1, from the Insights dashboard, shows how dashboard data can identify which components of the course are most engaging to the students. Conversely, MOOC instructors do not have the time or ability to address thousands of students individually. Dashboard data is instead used to guide iterative course development in a months-long cycle. Figure 2, from XAnalytics, shows how graphs of IRT-derived data can point out individual assessment items that need attention.</p>
+<p>Many MOOC instructors also find demographic and geographical breakdowns to be very motivating. Both XAnalytics and Insights provide this information in aggregate form.</p>
+
+<h4>Future Developments</h4>
+<p>The future evolution of these dashboards will be a major focus of our discussion at our demonstration. We encourage L@S attendees to join in the conversation about how to handle novel and difficult sources of data.</p>
+<p>In particular, both XAnalytics and Insights plan to group student data by demographics, performance, and other factors. We expect that these reports will be very valuable in reaching traditionally under-served groups of students. The XAnalytics team hopes to add the ability to handle custom survey questions (from sources such as Qualtrics), while the Insights team is considering how to handle the filtering of engaged and disengaged students.</p>
+<p>Discussion forum data is also an acknowledged blind spot for both dashboards, and a complex task for computer-driven analytics. Both teams are considering how best to approach these difficult items, and we welcome input.</p>
+
+<h4>Demonstration</h4>
+<p>Both the Insights and XAnalytics dashboards will be demonstrated using real, anonymized student data from live courses. Both the instructor-facing side and the data chain will be shown.</p>
+
+<h4>Acknowledgements</h4>
+<p>The close collaboration between researchers at Harvard and MIT has been a boon for the development of the XAnalytics dashboards. Likewise, the deep involvement both institutions have with edX has helped to shape and drive the Insights dashboards. We are thankful for the community of research that has been created in Cambridge and Boston around online learning, and for the generosity of the individuals and institutions who help us improve education for the world.</p>

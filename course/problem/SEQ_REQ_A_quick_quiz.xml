@@ -1,0 +1,9 @@
+<problem url_name="SEQ_REQ_A_quick_quiz" display_name="A quick quiz" markdown="null">
+  <p>Has a student that passed 90% of the assessments in a course necessarily mastered all the latent skills covered by the course?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Is a graded quiz or assignment a good idea?" type="MultipleChoice">
+      <choice correct="false">Yes <choicehint>Try again.</choicehint></choice>
+      <choice correct="true">No <choicehint>It is possible that the remaining 10% of assessments require mastery of a very different set of skills than the other 90%, which means that the student may still be missing some skills. The takeaway is that in a course that tests certain skills more than others, good grades can mask weaknesses in skills with less content coverage.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

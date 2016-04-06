@@ -1,0 +1,6 @@
+<vertical display_name="Feedback">
+  <html url_name="INDIAN_Intake_0"/>
+  <survey url_name="d7facd05b5c647b0a1f86efdf70f6def" xblock-family="xblock.v1" questions="[&#10;  [&#10;    &quot;enjoy&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Do you think the research that you do, the technologies that you build, and the approaches you take, would translate to this context?&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;recommend&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Do you think the adoption of a Learning @ Scale solution is feasible in this context?&quot;&#10;    }&#10;  ]&#10;]" feedback="" private_results="true" block_name="Poll" max_submissions="0" answers="[&#10;  [&#10;    &quot;Y&quot;,&#10;    &quot;Yes&quot;&#10;  ],&#10;  [&#10;    &quot;N&quot;,&#10;    &quot;No&quot;&#10;  ],&#10;  [&#10;    &quot;M&quot;,&#10;    &quot;Cannot Say&quot;&#10;  ]&#10;]"/>
+  <html url_name="be599ebc00a243928586e7fff2bc6f31"/>
+  <discussion url_name="b00b672707cf44a4bb27c55de6613f10"/>
+</vertical>
