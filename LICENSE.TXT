@@ -1,9 +1,9 @@
 Licensing information
 
-This course is free courseware: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as
-published by the Free Software Foundation, either version 3 of the
-License, or (at your option) any later version.
+The bulk of this course is free courseware: you can redistribute it
+and/or modify it under the terms of the GNU Affero General Public
+License as published by the Free Software Foundation, either version 3
+of the License, or (at your option) any later version.
 
 This course is distributed in the hope that it will be useful, but
 WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -20,3 +20,6 @@ come with this course. If not, the text of the license is
 available at:
    
    http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Specific portions may be distributed under other rights, as indicated
+by authors.
