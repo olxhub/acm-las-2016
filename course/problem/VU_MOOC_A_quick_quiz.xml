@@ -1,4 +1,4 @@
-<problem display_name="Quiz of Your Intuition" markdown="null">
+<problem display_name="Quiz of Your Intuition" markdown="null" weight="0.0">
 <p>Where do you think we observed the largest difference between the experimental and control group for our study?</p>
 <multiplechoiceresponse>
   <choicegroup label="Where do you think we observed the largest difference between the experimental and control group for our study?" type="MultipleChoice">

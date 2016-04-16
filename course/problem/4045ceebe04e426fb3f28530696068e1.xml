@@ -1,0 +1,72 @@
+<problem display_name="Participant expectations" markdown="Now, a few questions about expectations. It's okay to guess (you can always try again):&#10;&#10;&gt;&gt;I am expected to go through the presentations of the full papers before this conference.&lt;&lt;&#10;(x) True {{ Correct! If you don't, you'll be very confused at the flipped session. }}&#10;( ) False {{ If you don't, you'll be very confused at the flipped session. }}&#10;&#10;[explanation]&#10;Participants at the flipped session will engage in activities and discussions which presume you're familiar with the content of those papers. We have a small number of full papers in the flipped track, and this can be done fairly quickly.&#10;[explanation]&#10;&#10;&gt;&gt;I am expected to go through the presentations of the short papers before this conference.&lt;&lt;&#10;( ) True {{ We'd encourage you to do so, but as a requirement, we thought it'd be overly burdensome. Do have a look, though. Several have fantastic short courses. }}&#10;(x) False {{ We'd encourage you to do so, but as a requirement, we thought it'd be overly burdensome. Do have a look, though. Several have fantastic short courses. }}&#10;&#10;[explanation]&#10;We have a large number of short papers, and we didn't think requiring going through all of those would be reasonable for most conference participants. We would encourage you to go through those which look relevant to your work. &#10;[explanation]&#10;&#10;&gt;&gt;I need to go through the full learning sequences.&lt;&lt;&#10;( ) True {{ We encouraged course authors to use the flipped track to give a conference-scale presentation, but also to include additional resources for interested participants. The last portions of the learning sequences are often optional. }}&#10;(x) False {{ We encouraged course authors to use the flipped track to give a conference-scale presentation, but also to include additional resources for interested participants. The last portions of the learning sequences are often optional. }}&#10;&#10;[explanation]&#10;We encouraged course authors to use a traditional inverted triangle, where the first element of the sequence contains a paper abstract, the next few, the equivalent for a standard conference presentation for the type of paper (20 minutes for full paper, 5 minutes for short), followed by in-depth resources for those who have a deeper interest (e.g. would like to replicate the work). &#10;[explanation]&#10;&#10;&gt;&gt;I should discuss the papers in the discussion forums.&lt;&lt;&#10;(x) True {{ This is one of the best things which can happen as a result of this. }}&#10;( ) False {{ Please do discuss. }}&#10;&#10;[explanation]&#10;Absolutely! One of the best outcomes of this is to have lively conversation before and after the conference. If this works, in future conferences, we may consider having an archive of such discussion around papers for future readers. &#10;[explanation]&#10;">
+<p>Now, a few questions about expectations. It's okay to guess (you can always try again):</p>
+
+<p>I am expected to go through the presentations of the full papers before this conference.</p>
+<multiplechoiceresponse>
+  <choicegroup label="I am expected to go through the presentations of the full papers before this conference." type="MultipleChoice">
+    <choice correct="true">True <choicehint>Correct! If you don't, you'll be very confused at the flipped session.</choicehint></choice>
+    <choice correct="false">False <choicehint>If you don't, you'll be very confused at the flipped session.</choicehint></choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>Participants at the flipped session will engage in activities and discussions which presume you're familiar with the content of those papers. We have a small number of full papers in the flipped track, and this can be done fairly quickly.</p>
+
+</div>
+</solution>
+
+<p>I am expected to go through the presentations of the short papers before this conference.</p>
+<multiplechoiceresponse>
+  <choicegroup label="I am expected to go through the presentations of the short papers before this conference." type="MultipleChoice">
+    <choice correct="false">True <choicehint>We'd encourage you to do so, but as a requirement, we thought it'd be overly burdensome. Do have a look, though. Several have fantastic short courses.</choicehint></choice>
+    <choice correct="true">False <choicehint>We'd encourage you to do so, but as a requirement, we thought it'd be overly burdensome. Do have a look, though. Several have fantastic short courses.</choicehint></choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>We have a large number of short papers, and we didn't think requiring going through all of those would be reasonable for most conference participants. We would encourage you to go through those which look relevant to your work. </p>
+
+</div>
+</solution>
+
+<p>I need to go through the full learning sequences.</p>
+<multiplechoiceresponse>
+  <choicegroup label="I need to go through the full learning sequences." type="MultipleChoice">
+    <choice correct="false">True <choicehint>We encouraged course authors to use the flipped track to give a conference-scale presentation, but also to include additional resources for interested participants. The last portions of the learning sequences are often optional.</choicehint></choice>
+    <choice correct="true">False <choicehint>We encouraged course authors to use the flipped track to give a conference-scale presentation, but also to include additional resources for interested participants. The last portions of the learning sequences are often optional.</choicehint></choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>We encouraged course authors to use a traditional inverted triangle, where the first element of the sequence contains a paper abstract, the next few, the equivalent for a standard conference presentation for the type of paper (20 minutes for full paper, 5 minutes for short), followed by in-depth resources for those who have a deeper interest (e.g. would like to replicate the work). </p>
+
+</div>
+</solution>
+
+<p>I should discuss the papers in the discussion forums.</p>
+<multiplechoiceresponse>
+  <choicegroup label="I should discuss the papers in the discussion forums." type="MultipleChoice">
+    <choice correct="true">True <choicehint>This is one of the best things which can happen as a result of this.</choicehint></choice>
+    <choice correct="false">False <choicehint>Please do discuss.</choicehint></choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>Absolutely! One of the best outcomes of this is to have lively conversation before and after the conference. If this works, in future conferences, we may consider having an archive of such discussion around papers for future readers. </p>
+
+</div>
+</solution>
+
+</problem>

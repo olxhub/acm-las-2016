@@ -1,0 +1,126 @@
+<problem display_name="Feature List" markdown="null" showanswer="attempted">
+
+<!-- 
+This file is used to make the problem work within the edX system. 
+You will not need it if you are using this code for other purposes.
+ -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+	console.log('outer ready');
+});
+
+// Logs a javascript object.
+function logThatThing(ThatThing){
+
+	// Log it to the console just to verify it's working
+	console.log(JSON.stringify(ThatThing));
+	
+	// Send it to the official edX logamajig!
+	Logger.log("harvardx.public_demo.matching_problem", ThatThing);
+
+}
+
+</script>
+	
+<script type="loncapa/python">
+
+import json
+
+def answercheck(e, ans):
+  
+  right_answer = []
+  right_answer.append( [['A','1'],['A','2'],['B','1'],['D','2'],['E','2'],['F','1'],['F','2']] )
+  partial_credit = True
+  feedback = True
+
+  parsed = json.loads(ans)
+  answer = json.loads(parsed['answer'])
+  answer = answer['pairings']
+  
+  if partial_credit:
+  
+    currentpoints = []
+    wrong_answers = []
+    maxpoints = []
+    scores = []
+    answer_index = 0
+  
+    for right_answer_n in right_answer:
+
+      maxpoints.append(len(right_answer_n))
+      currentpoints.append(0)
+      wrong_answers.append(0)
+      
+      for item in answer:
+        does_match = False
+        for target in right_answer_n:
+          if item == target:
+            does_match = True
+            break
+        if does_match:
+          currentpoints[answer_index] += 1
+        else:
+          wrong_answers[answer_index] += 1
+          
+    
+      scores.append((float(currentpoints[answer_index] - wrong_answers[answer_index])) / float(maxpoints[answer_index]))
+      answer_index += 1
+  
+    final_grade = max(scores)
+    final_index = scores.index(final_grade)
+    final_grade = round(final_grade, 2)
+    message = str(currentpoints[final_index]) 
+    message += ' correct out of ' 
+    message += str(maxpoints[final_index]) 
+    message += ', ' 
+    message += str(wrong_answers[final_index]) 
+    message += ' wrong.'
+
+    is_right = False
+    if 0.1 &lt; final_grade &lt; 0.9: is_right = 'Partial'
+    elif final_grade &gt;= 0.9: is_right = True
+    
+    if not feedback: message = ''
+    
+    return {
+      'input_list': [
+        { 'ok': is_right, 'msg': message, 'grade_decimal': final_grade},
+      ]
+    }
+  
+  else:
+    answer_sort = sorted(answer)
+  
+    is_right = False
+  
+    for right_answer_n in right_answer:
+      right_answer_sort = sorted(right_answer_n)
+  
+      if answer_sort == right_answer_sort:
+        is_right = True
+        break
+      else:
+        is_right = False
+        
+    return is_right
+
+ 
+</script>
+
+<p>Which dashboards have which features?</p>
+
+<p>This is a matching exercise. Drag the elements on the left into the ones on the right to create a match. You can drag multiple items into each category. If an item does not fit in any category, leave it unmatched.</p>
+
+<customresponse cfn="answercheck">
+  <jsinput gradefn="MatchingA.getGrade" get_statefn="MatchingA.getState" set_statefn="MatchingA.setState" width="780" height="550" html_file="/static/MatchingA_Dashboard.html" sop="false"/>
+</customresponse>
+
+<solution>
+  <div class="detailed-solution">
+    <p>Explanation</p>
+    <p>Insights provides basic information, is built into edX, and is open-source. XAnalytics also provides basic information and is open-source. It also can provide information on individual students and create custom reports, but it is not built into edX. Neither dashboard provides forum information at this time.</p>
+  </div>
+</solution>
+
+</problem>

@@ -1,6 +1,0 @@
-<vertical display_name="Intake">
-  <html url_name="EVID_HUB_Intake_0"/>
-  <word_cloud url_name="EVID_HUB_Intake_1"/>
-  <discussion url_name="EVID_HUB_Intake_2"/>
-  <poll url_name="EVID_HUB_intake_poll" xblock-family="xblock.v1" display_name="Intake Poll" question="Which of these tools do you like best?" answers="[&#10;  [&#10;    &quot;R&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Discussion forum&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;B&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Poll&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;G&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Word cloud&quot;&#10;    }&#10;  ]&#10;]"/>
-</vertical>

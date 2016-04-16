@@ -1,0 +1,23 @@
+<problem display_name="Quiz: Employment Status" markdown="Try to guess the demographics of the OMSCS program! (OMSCS demographics are based on the 400 students in CS7637: Knowledge-Based AI in Summer 2015)&#10;&#10;&gt;&gt;What percentage of OMSCS students were employed full-time while working on their Master's Degree?&lt;&lt;&#10;( ) 5% {{ Way too low! In fact, that's the percentage of OMSCS students that reported being employed full-time while working on their Master's Degree. }}&#10;( ) 35% {{ Actually, an enormous majority of OMSCS students work full-time while pursuing their Master's Degree. }}&#10;( ) 75% {{ That would be a substantial portion, but actually, an even greater number of OMSCS students are employed full-time. }}&#10;(x) 90% {{ That's right! 90% of OMSCS students are employed full-time, and an additional 5% are employed part-time. }}&#10;&#10;[explanation]&#10;90% of OMSCS students are employed full-time, and an additional 5% are employed part-time. By comparison, 5% of on-campus students reported being employed full-time, and 10% reported being employed part-time.&#10;[explanation]&#10;">
+<p>Try to guess the demographics of the OMSCS program! (OMSCS demographics are based on the 400 students in CS7637: Knowledge-Based AI in Summer 2015)</p>
+
+<p>What percentage of OMSCS students were employed full-time while working on their Master's Degree?</p>
+<multiplechoiceresponse>
+  <choicegroup label="What percentage of OMSCS students were employed full-time while working on their Master's Degree?" type="MultipleChoice">
+    <choice correct="false">5% <choicehint>Way too low! In fact, that's the percentage of OMSCS students that reported being employed full-time while working on their Master's Degree.</choicehint></choice>
+    <choice correct="false">35% <choicehint>Actually, an enormous majority of OMSCS students work full-time while pursuing their Master's Degree.</choicehint></choice>
+    <choice correct="false">75% <choicehint>That would be a substantial portion, but actually, an even greater number of OMSCS students are employed full-time.</choicehint></choice>
+    <choice correct="true">90% <choicehint>That's right! 90% of OMSCS students are employed full-time, and an additional 5% are employed part-time.</choicehint></choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>90% of OMSCS students are employed full-time, and an additional 5% are employed part-time. By comparison, 5% of on-campus students reported being employed full-time, and 10% reported being employed part-time.</p>
+
+</div>
+</solution>
+
+</problem>

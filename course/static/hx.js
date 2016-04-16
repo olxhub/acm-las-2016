@@ -1,4 +1,4 @@
-var HXGlobalJS = (function(hxLocalOptions) {
+var HXGlobalJS = (function(hxLocalOptions, HXPUPTimer) {
 
 
     /***********************************************/
@@ -8,8 +8,12 @@ var HXGlobalJS = (function(hxLocalOptions) {
     /***********************************************/
 
     var hxDefaultOptions = {
+        // Show the UTC clock
         showUTCClock: false,
+        // Open the discussion right away
         hxOpenDiscussion: false,
+        // Table of Contents
+        makeTOC: false,
 
         // Highlighter: Yellow highlights that start turned off and go back to transparent afterward.
         highlightColor: '#ff0',
@@ -41,6 +45,15 @@ var HXGlobalJS = (function(hxLocalOptions) {
             slidesToShow: 1,
             slidesToScroll: 1
         },
+        // Default options for pop-up problems
+        PUPOptions: {
+            width: 800,
+            effect: 'fade',
+            effectlength: 200,
+            myPosition: 'center',
+            atPosition: 'center',
+            ofTarget: window
+        }
     };
 
     /***********************************************/
@@ -109,13 +122,18 @@ var HXGlobalJS = (function(hxLocalOptions) {
         scriptArray.push('slick.js');
     }
 
-    // Do we load XHVideoLinks for... um... HarvardX video links?
-    // And potentially other stuff later on for videos?
+    // Do we load XHVideoLinks for... um... HarvardX video links.
+    // And HXPopUpProblems for pop-up problems.
     var allVideos = $('.video');
     if(allVideos.length){
         logThatThing({'video': 'found'});
         scriptArray.push('HXVideoLinks.js');
         var HXVL;
+        // Only do pop-up problems if there's a timer in place.
+        if(HXPUPTimer.length !== 0){
+            scriptArray.push('HXPopUpProblems.js');
+            var HXPUP;
+        }
     }
 
     $.getMultiScripts(scriptArray, courseAssetURL)
@@ -128,10 +146,17 @@ var HXGlobalJS = (function(hxLocalOptions) {
     
     // Once we have the options, we're ready to proceed.
     function keepGoing(hxOptions){
-    
-        // Instantiating some of the functions we loaded earlier.
+
+        /**************************************/
+        // If we have videos, instantiate the functions
+        // that handle pop-up links and problems.
+        /**************************************/
         if(allVideos.length){
             HXVL = new HXVideoLinks();
+            // Only do pop-up problems if there's a timer in place.
+            if(HXPUPTimer.length !== 0){
+                HXPUP = new HXPopUpProblems(hxDefaultOptions.PUPOptions, HXPUPTimer);
+            }
         }
     
         /**************************************/
@@ -143,7 +168,7 @@ var HXGlobalJS = (function(hxLocalOptions) {
         
         var allTimeLinks = $('a.hx-vidtime');
         allTimeLinks.on('click tap', function(){
-            var thisTime = HXVL.hmsToTime($(this).attr('data-time'));
+            var thisTime = HXVL.hmsToTime($(this).attr('data-time'));   // Can't rely on HXVL's hmsToTime. Need to have it here.
             var vidNumber = $(this).attr('href').replace('#video', '');
             HXVL.jumpToTime(vidNumber, thisTime);
             logThatThing({'link starts video at time': thisTime});
@@ -152,12 +177,76 @@ var HXGlobalJS = (function(hxLocalOptions) {
         // Placeholder: Intro.js walkthroughs
 
 
-        // Placeholder: Pop-up assessments
-    
-        // Placeholder: TOC maker
+        /**************************************/
+        // Automatic Table of Contents maker.
+        // Uses h3 and h4 elements, links them up.
+        // Set hxOptions.makeTOC = true to use.
+        /**************************************/
+        
+        if(hxOptions.makeTOC){
+            $('#seq_content .xblock:first-of-type').prepend('<div id="autoTOC" class="hx-autotoc"></div>');
+            // Using text instead of objects to make nesting easier.
+            var autoTOC = '<h3>Table of Contents</h3><ul>';
+
+            // Get all the h3 and h4 elements on the page.
+            var allHeaders = $('h3, h4').filter(function() {
+                // Remove anything that's hidden away.
+                return $(this).is(':visible');
+            });;
+
+            var TOCList = $('#autoTOC ul');
+            
+            // For each header, add it to the list and make a link.
+            allHeaders.each(function(i){
+                // Set the id of the element to link to.
+                $(this).attr('id','TOCLink'+i);
+                
+                var TOCEntry = $(this).text();
+                var TOCLevel;
+                if($(this).is('h3')){
+                    TOCLevel = 3;
+                    if($(allHeaders[i-1]).is('h3') || i==0){
+                        autoTOC += '<li class="autotoc'
+                            + TOCLevel
+                            + '"><a href="#TOCLink'+i+'">'
+                            + TOCEntry 
+                            + '</a></li>';
+                    } else if($(allHeaders[i-1]).is('h4')){
+                        autoTOC += '</ul></li><li class="autotoc'
+                            + TOCLevel
+                            + '"><a href="#TOCLink'+i+'">' 
+                            + TOCEntry 
+                            + '</a></li>';
+                    }
+                }
+                if($(this).is('h4')){
+                    TOCLevel = 4;
+                    if($(allHeaders[i-1]).is('h3')){
+                        if(i>0){ autoTOC.slice(0, autoTOC.length - 5); }
+                        autoTOC += '<ul><li class="autotoc'
+                            + TOCLevel
+                            + '"><a href="#TOCLink'+i+'">' 
+                            + TOCEntry 
+                            + '</a></li>';
+                    } else if($(allHeaders[i-1]).is('h4')){
+                        autoTOC += '<li class="autotoc'
+                            + TOCLevel
+                            + '"><a href="#TOCLink'+i+'">' 
+                            + TOCEntry 
+                            + '</a></li>';
+                    }
+                }
+            });
+            autoTOC += '</ul>';
+            
+            // Done - add it all to the DOM.
+            $('#autoTOC').append(autoTOC);
+        }
 
 
+        /**************************************/
         // UTC Clock (currently an iframe from TimeAndDate.com)
+        /**************************************/
         if(hxOptions.showUTCClock){
             var hxClockFrame = '<li style="float:right;"><iframe src="https://freesecure.timeanddate.com/clock/i53t5o51/fc5e5e5e/tct/pct/ftb/ts1/ta1" title="UTC Clock" frameborder="0" width="100" height="16" style="padding-left: 11px; padding-top: 11px;"></iframe></div>';
             var hxClockSpot = $('.course-tabs');
@@ -189,11 +278,13 @@ var HXGlobalJS = (function(hxLocalOptions) {
 
 
         /**************************************/
-        // Stuff for a highlight toggle button.
+        // Highlight toggle button.
+        // Create a button with the class "highlighter#"
+        // and spans with the class "highlight#"
+        // where the # is a number.
         /**************************************/
 
-        // Syntax: Create a button with the class "highlighter" and spans with the class "highlight"
-        $( '[class^=hx-highlighter]').on('click tap', function() {
+        $('[class^=hx-highlighter]').on('click tap', function() {
         
             var myNumber = getClassNumber(this.className, 'hx-highlighter');
             
@@ -475,6 +566,9 @@ var HXGlobalJS = (function(hxLocalOptions) {
 // Check for local options object.
 if (typeof hxLocalOptions === 'undefined') { var hxLocalOptions = {}; }
 
+// Check for local timers for pop-up problems.
+if (typeof HXPUPTimer === 'undefined') { var HXPUPTimer = []; }
+
 $(document).ready(function() {
-    HXGlobalJS(hxLocalOptions);
+    HXGlobalJS(hxLocalOptions, HXPUPTimer);
 });

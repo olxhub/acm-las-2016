@@ -1,0 +1,11 @@
+<problem display_name="Dropoff problem" markdown="&gt;&gt;And how do you think student retention compared to students in Facebook compared to the broad population?&lt;&lt;&#10;(x) Coursera had a faster dropoff&#10;( ) Facebook had a faster dropoff">
+<p>And how do you think student retention compared to students in Facebook compared to the broad population?</p>
+<multiplechoiceresponse>
+  <choicegroup label="And how do you think student retention compared to students in Facebook compared to the broad population?" type="MultipleChoice">
+    <choice correct="true">Coursera had a faster dropoff</choice>
+    <choice correct="false">Facebook had a faster dropoff</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>

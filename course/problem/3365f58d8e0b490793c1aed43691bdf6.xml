@@ -1,0 +1,13 @@
+<problem display_name="Multiple Choice" markdown="As a researcher, what type of user population are you most likely to employ?&#10;&#10;(x) The ASSISTments student population&#10;(x) My own local population&#10;(x) Mechanical Turk, or another 'automated' subject pool&#10;(x) Other&#10;">
+<p>As a researcher, what type of user population are you most likely to employ?</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">The ASSISTments student population</choice>
+    <choice correct="true">My own local population</choice>
+    <choice correct="true">Mechanical Turk, or another 'automated' subject pool</choice>
+    <choice correct="true">Other</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>

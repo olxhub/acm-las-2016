@@ -1,0 +1,26 @@
+<problem display_name="What's Wrong?" markdown="null" showanswer="attempted">
+
+  <p><img class="hx-centered" src="/static/DASHBOARDS_Insights_forAssessment.png" alt="A low problem score, shown in Insights"/></p>
+  
+<p>Imagine that your course dashboard shows you a problem where students are receiving an unexpectedly low score. What might this indicate? Select all that apply.</p>
+
+<choiceresponse partial_credit="edc">
+  <checkboxgroup label="What might this indicate?">
+    <choice correct="true">The problem is more difficult than anticipated</choice>
+    <choice correct="true">The students are not working very hard</choice>
+    <choice correct="true">The problem is badly written</choice>
+    <choice correct="true">The problem does not assess what is being taught</choice>
+    <choice correct="true">The problem relies on a cultural reference, but the course has an audience that does not understand it.</choice>
+  </checkboxgroup>
+</choiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>All of these are possible answers! These dashboards will only give you an idea of where a problem might be happening; not necesarily what the problem is.</p>
+
+</div>
+</solution>
+
+</problem>

@@ -1,0 +1,17 @@
+<problem display_name="Exercise 1" markdown="null" max_attempts="0" showanswer="never">
+<p>Click 'Run 50 iteration' to train the topic model (browser may freeze for a while). Then click it over again to train your model for 500 iterations or even more. </p>
+
+<p>List 3 topics (using topic terms) you observe after training 500 or more iterations.<br/>Hint: Copy and paste three topics from the topic model.</p>
+
+<stringresponse answer=".*" type="ci regexp">
+  <textline label="List 1 topics (using topic terms) you observe after training 500 or more iterations." size="80" show_correctness="never"/>
+    </stringresponse>
+  
+  <stringresponse answer=".*" type="ci regexp">
+  <textline label="List 2 topics (using topic terms) you observe after training 500 or more iterations." size="80" show_correctness="never"/>
+    </stringresponse>
+  
+  <stringresponse answer=".*" type="ci regexp">
+  <textline label="List 3 topics (using topic terms) you observe after training 500 or more iterations." size="80" show_correctness="never"/>
+    </stringresponse>
+</problem>

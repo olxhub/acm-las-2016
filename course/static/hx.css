@@ -79,6 +79,15 @@ p > small.hx-caption {
     font-size: small !important;
 }
 
+/* Larger UL and OL left-hand margins. */
+.xblock ul {
+    margin-left: 1em !important;
+}
+
+.xblock ol {
+    margin-left: 1em !important;
+}
+
 /* Add image HRs */
 /*
 hr.hx-fancy {
@@ -123,8 +132,44 @@ table.hx-compact-table th {
     padding: 3px !important;
 }
 
-/************** End Block *******************/
+/************** End sidebar table Block *******************/
 
+
+/***************************************/
+/* This block is for auto-TOCs
+/***************************************/
+
+.hx-autotoc {
+    float:right;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 8px;
+    font-size: 14px;
+    max-width: 300px;
+}
+
+.hx-autotoc h3 {
+    color: #08b;
+    font-size: 20px;
+    margin-bottom: 6px !important;
+}
+
+.hx-autotoc ul {
+    list-style-type: none !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.hx-autotoc li {
+    padding: 1px !important;
+    margin: 1px !important;
+}
+
+/************** End auto-TOC Block *******************/
 
 
 /*********************************************/
@@ -161,7 +206,7 @@ h4.hx-superbold {
     width: 600px;
 }
 
-/************** End Block *******************/
+/************** End fancy-header Block *******************/
 
 
 /*********************************************/
@@ -223,7 +268,7 @@ h4.hx-superbold {
     background-image: none;
 }
 
-/************** End Block *******************/
+/************** End pretty-box Block *******************/
 
 
 /*********************************************/
@@ -266,7 +311,7 @@ h4.hx-superbold {
 .slick-prev:before, .slick-next:before { 
     color: #189 !important;
 }
-/************** End Block *******************/
+/************** End Slick Block *******************/
 
 
 /***************************************/
@@ -405,4 +450,4 @@ h4.hx-superbold {
 	font-weight: bold !important;
 }
 
-/*********** End Block **********/
+/*********** End Video Link Block **********/

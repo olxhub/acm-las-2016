@@ -2,6 +2,6 @@
 <p>(3) Do you have any questions about our research or the course?</p>
 
 <stringresponse answer=".*" type="ci regexp">
-  <textline label="Do you have any questions about our research or the course?" size="80" show_correctness="never"/>
+  <textline label="Do you have any questions about our research or the course?" size="90" show_correctness="never"/>
 </stringresponse>
 </problem>

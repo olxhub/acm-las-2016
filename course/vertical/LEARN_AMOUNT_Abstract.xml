@@ -1,3 +1,6 @@
 <vertical display_name="Abstract">
+  <html url_name="e05732b200754e01a67d76011489ac0b"/>
   <html url_name="LEARN_AMOUNT_Abstract_0"/>
+  <html url_name="bf5a5c29c162407dac13e4eb69aff23e"/>
+  <survey url_name="47c72795c3b34abcafc009686e385b59" xblock-family="xblock.v1" questions="[&#10;  [&#10;    &quot;enjoy&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;How many questions do you think studens need to answer correctly in a row to be certain they have mastered the skill?&quot;&#10;    }&#10;  ]&#10;]" feedback="" private_results="false" block_name="Question" max_submissions="1" answers="[&#10;  [&#10;    &quot;Y&quot;,&#10;    &quot;2&quot;&#10;  ],&#10;  [&#10;    &quot;M&quot;,&#10;    &quot;3&quot;&#10;  ],&#10;  [&#10;    &quot;N&quot;,&#10;    &quot;4&quot;&#10;  ],&#10;  [&#10;    &quot;1460407925158&quot;,&#10;    &quot;5&quot;&#10;  ]&#10;]"/>
 </vertical>

@@ -1,0 +1,11 @@
+<problem display_name="Activity per post problem" markdown="&gt;&gt;Who had more activity per post?&lt;&lt;&#10;( ) Coursera&#10;(x) Facebook&#10;">
+<p>Who had more activity per post?</p>
+<multiplechoiceresponse>
+  <choicegroup label="Who had more activity per post?" type="MultipleChoice">
+    <choice correct="false">Coursera</choice>
+    <choice correct="true">Facebook</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>

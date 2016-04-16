@@ -1,0 +1,9 @@
+<problem display_name="Exercise 2" markdown="null" max_attempts="0" showanswer="never">
+<p>Once you are satistified with the model, click 'vocabulary' in the top right hand corner.</p>
+
+<p>What is the most frequent word in this corpus?</p>
+
+<stringresponse answer=".*" type="ci regexp">
+  <textline label="What is the most frequent word in this corpus?" size="30" show_correctness="never"/>
+</stringresponse>
+</problem>

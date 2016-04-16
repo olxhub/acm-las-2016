@@ -5,4 +5,6 @@
   <html url_name="7cb8f05c1183401791dad22444dcfae7"/>
   <html url_name="66ef8cf2f05e4a78a2a8e065a2df6810"/>
   <html url_name="1edcfb2ad4934a78b7ac59236bc04dee"/>
+  <poll url_name="5aec07536a0a44ef89ca928ca8d3234f" xblock-family="xblock.v1" feedback="If you want to know more about working with us in future, please get in touch by email to elaine.farrow@ed.ac.uk" display_name="Partnership Poll" private_results="true" question="Now that you have completed this course, would you be interested in partnering with us to trial the Beetle-Grow software with your students?" max_submissions="0" answers="[&#10;  [&#10;    &quot;R&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Yes&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;B&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;No&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;G&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Maybe&quot;&#10;    }&#10;  ]&#10;]"/>
+  <done url_name="3ab1b42f469b47548fad806912543dc3" xblock-family="xblock.v1"/>
 </vertical>

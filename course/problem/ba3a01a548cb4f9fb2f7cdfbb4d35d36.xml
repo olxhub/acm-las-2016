@@ -1,0 +1,10 @@
+<problem display_name="Excercise 3" markdown="null" max_attempts="0" showanswer="never">
+<p>Which word (or words) has the least topic specifity?</p>
+
+<stringresponse answer=".*" type="ci regexp">
+  <textline label="Which word (or words) has the least topic specifity?" size="40"/>
+</stringresponse>
+
+
+
+</problem>

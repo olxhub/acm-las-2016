@@ -1,0 +1,21 @@
+<problem display_name="Data Format" markdown="&gt;&gt;In what format does edX supply log data?&lt;&lt;&#10;(!) XML {{ timely feedback -- explain why an almost correct answer is wrong }}&#10;(x) json&#10;( ) CSV&#10;( ) Excel&#10;&#10;[explanation]&#10;EdX courses are written in XML, generate log data in JSON format, and supply some student data in CSV format to instructors.&#10;[explanation]&#10;" rerandomize="per_student" showanswer="attempted">
+<p>In what format does edX supply log data?</p>
+<multiplechoiceresponse>
+  <choicegroup label="In what format does edX supply log data?" type="MultipleChoice" shuffle="true">
+    <choice correct="false">XML <choicehint>timely feedback -- explain why an almost correct answer is wrong</choicehint></choice>
+    <choice correct="true">json</choice>
+    <choice correct="false">CSV</choice>
+    <choice correct="false">Excel</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>EdX courses are written in XML, generate log data in JSON format, and supply some student data in CSV format to instructors.</p>
+
+</div>
+</solution>
+
+</problem>

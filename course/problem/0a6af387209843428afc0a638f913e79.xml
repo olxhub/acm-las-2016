@@ -1,0 +1,24 @@
+<problem display_name="Quiz: Total Amount Paid to Project Reviewers" markdown="As we mentioned, Udacity project reviewers are paid per project that they review. &#10;&#10;&gt;&gt;How much money do you predict was paid out to project reviewers last month?&lt;&lt;&#10;( ) Under $50,000&#10;( ) $50,000 to $150,000&#10;( ) $150,000 to $250,000&#10;(x) $250,000 to $350,000&#10;( ) Over $350,000&#10;&#10;[explanation]&#10;Udacity paid out over $300,000 to project reviewers in the past month.&#10;[explanation]&#10;">
+<p>As we mentioned, Udacity project reviewers are paid per project that they review. </p>
+
+<p>How much money do you predict was paid out to project reviewers last month?</p>
+<multiplechoiceresponse>
+  <choicegroup label="How much money do you predict was paid out to project reviewers last month?" type="MultipleChoice">
+    <choice correct="false">Under $50,000</choice>
+    <choice correct="false">$50,000 to $150,000</choice>
+    <choice correct="false">$150,000 to $250,000</choice>
+    <choice correct="true">$250,000 to $350,000</choice>
+    <choice correct="false">Over $350,000</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>Udacity paid out over $300,000 to project reviewers in the past month.</p>
+
+</div>
+</solution>
+
+</problem>

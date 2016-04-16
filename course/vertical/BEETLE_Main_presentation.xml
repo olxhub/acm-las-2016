@@ -1,7 +1,11 @@
 <vertical display_name="Overview">
   <html url_name="BEETLE_Main_Presentation"/>
   <video url_name="46c74370d915472986f7df4af4b859fb"/>
+  <done url_name="e62ba071c0db4e88bf19e1043dd677d4" xblock-family="xblock.v1"/>
   <video url_name="fc30aa1f219143338da82178a95a8559"/>
+  <done url_name="a36057d0d42d466a8c90402d679753cd" xblock-family="xblock.v1"/>
   <html url_name="69ff4d0eb38546b08527ca27f26a9f8e"/>
+  <survey url_name="e2f68e1154c743f18f87ce051a6d4f82" xblock-family="xblock.v1" questions="[&#10;  [&#10;    &quot;recommend&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Have you watched the demo video?&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;enjoy&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Have you registered for your own Beetle-Grow account?&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;1460116299143&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Have you completed the first question in the demo?&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;1460116340920&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Have you completed the whole demo?&quot;&#10;    }&#10;  ]&#10;]" feedback="" private_results="true" block_name="Interaction Survey" max_submissions="0" answers="[&#10;  [&#10;    &quot;Y&quot;,&#10;    &quot;Yes&quot;&#10;  ],&#10;  [&#10;    &quot;M&quot;,&#10;    &quot;Not yet&quot;&#10;  ],&#10;  [&#10;    &quot;N&quot;,&#10;    &quot;I don't plan to&quot;&#10;  ]&#10;]"/>
   <video url_name="5ae51c7da7c54ec69291b3b67bfd1258"/>
+  <done url_name="78c25b7221124e5fb352fda0863668dd" xblock-family="xblock.v1"/>
 </vertical>

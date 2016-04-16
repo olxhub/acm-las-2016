@@ -1,0 +1,23 @@
+<problem display_name="Post-Presentation Survey" markdown="null">
+<script type="loncapa/python">
+def rettrue(expect, ans):
+    return True;
+</script>
+  
+  <p>What did you like about the <em>content</em> of this presentation (that is, the pedagogical benefits, the argument for accessibility, the OMSCS, etc.)?</p>
+  <customresponse cfn="rettrue">
+    <textline size="120" label="Answer1"/>
+  </customresponse>
+  <p>What would you change about the <em>content</em> of this presentation (that is, the pedagogical benefits, the argument for accessibility, the OMSCS, etc.)?</p>
+  <customresponse cfn="rettrue">
+    <textline size="120" label="Answer2"/>
+  </customresponse>
+  <p>What did you like about the presentation itself (that is, the video, the exercises, the readings, etc.)?</p>
+  <customresponse cfn="rettrue">
+    <textline size="120" label="Answer3"/>
+  </customresponse>
+  <p>What would you change about the presentation itself (that is, the video, the exercises, the readings, etc.)?</p>
+  <customresponse cfn="rettrue">
+    <textline size="120" label="Answer4"/>
+  </customresponse>
+</problem>

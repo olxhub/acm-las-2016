@@ -1,5 +1,5 @@
 <vertical display_name="What do you think?">
   <html url_name="INST_DATA_Intake_0"/>
-  <word_cloud url_name="INST_DATA_Intake_1"/>
   <discussion url_name="INST_DATA_Intake_2"/>
+  <done url_name="d27368dd0b5041db8b9cc822f55d1a14" xblock-family="xblock.v1"/>
 </vertical>

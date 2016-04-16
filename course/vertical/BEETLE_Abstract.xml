@@ -1,3 +1,5 @@
 <vertical display_name="Abstract">
   <html url_name="BEETLE_Abstract_0"/>
+  <poll url_name="93bccc9f6b4f4bdf928b470fa7b49e30" xblock-family="xblock.v1" feedback="If you want to know more about working with us in future, please get in touch by email to elaine.farrow@ed.ac.uk" display_name="Partnership Poll" private_results="true" question="Having read the abstract, would you be interested in partnering with us to trial the Beetle-Grow software with your students?" max_submissions="0" answers="[&#10;  [&#10;    &quot;R&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Yes&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;B&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;No&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;G&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Maybe&quot;&#10;    }&#10;  ]&#10;]"/>
+  <done url_name="991b361c305443bdac9b9c8f5b9ebf98" xblock-family="xblock.v1"/>
 </vertical>
